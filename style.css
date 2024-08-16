@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+
+
+
+body {
+
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("images/love1.jpg");
+
+}
+
+.paper {
+  background-image: url("images/love7.jpg");
+  background-size: 500px;
+  background-position: center center;
+  transform: rotateZ(-5deg);
+  position: absolute;
+  border-radius: 20px;
+  padding: 30px 60px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.paper:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.paper:active {
+  cursor: grabbing;
+}
+
+.paper2
+{
+  background-image: url("images/love4.jpg");
+  background-size: 500px;
+  background-position: center center;
+  transform: rotateZ(-5deg);
+  position: absolute;
+  border-radius: 20px;
+  padding: 30px 60px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.paper.red
+{
+  background-image: url("images/love2.jpg");
+  background-size: 500px;
+  background-position: center center;
+  transform: rotateZ(-5deg);
+  position: absolute;
+  border-radius: 20px;
+  padding: 30px 60px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.paper.red .p2
+{
+  font-family: "New Amsterdam", sans-serif;
+  font-size: 50px;
+  color: rgb(255,25,167);
+  opacity: 0.75;
+  user-select: none;
+// filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
+}
+
+.paper.heart {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  padding: 0;
+  background-image: url('images/love4.jpg');
+  background-size: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(255,25,167);;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+
+}
+
+.paper.image {
+  background-image: url("images/love6.jpg");
+  background-size: cover;
+  padding: 20px;
+  border-radius: 20px;
+}
+.paper.image p {
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+}
+
+img {
+  max-height: 150px;
+  width: 100%;
+  border-radius: 15px;
+  user-select: none;
+}
+
+.paper.heart::after {
+  content: "";
+  background-image: url('https://cdn.pixabay.com/photo/2016/03/31/19/25/cartoon-1294994__340.png');
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: 150px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+p {
+  font-family: "Caveat", cursive;
+  font-size: 50px;
+  color: rgb(255,25,167);
+  opacity: 0.75;
+  user-select: none;
+  // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
+}
+
+.paper .p1
+{
+  font-family: "Caveat", cursive;
+    font-size: 50px;
+    color: rgb(255,25,167);
+    opacity: 0.75;
+    user-select: none;
+    // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
+}
+
