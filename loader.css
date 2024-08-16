@@ -9,6 +9,7 @@ body {
     bottom: 0;
     right: 0;
     background: #f9f5f1;
+    z-index: 9999;
 }
 
 .main-page {
