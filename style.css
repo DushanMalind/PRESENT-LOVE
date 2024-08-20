@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   background-size: cover;
-  background-image: url("images/love1.jpg");
+  background-image: url("images/love2.jpg");
 
 }
 
@@ -51,7 +51,7 @@ body {
 
 .paper.red
 {
-  background-image: url("images/love2.jpg");
+  background-image: url("images/love1.jpg");
   background-size: 500px;
   background-position: center center;
   transform: rotateZ(-5deg);
